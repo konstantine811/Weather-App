@@ -1,0 +1,144 @@
+body {
+    font-family: "Roboto Slab", serif;
+    font-size: 100%;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul li {
+    list-style-type: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .container {
+    margin: 0 auto;
+    width: 960px;
+  }
+  
+  .header {
+    padding: 40px 0;
+    background-color: rgb(115, 168, 247);
+  }
+  
+  .header h1 {
+    font-family: "Source Sans Pro", sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 40px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  
+  .search-form {
+    margin: 0 auto;
+    width: 20%;
+  }
+  
+  .site-body {
+    padding: 0 20 20 20;
+    margin: 0 auto;
+  }
+  
+  .navigation-menu {
+    background-color: #e3f2fd;
+    min-height: 64px;
+    margin-top: -17px;
+  }
+  
+  .navigation-menu li {
+    float: left;
+    width: 100px;
+  }
+  
+  .navigation-menu a {
+    display: block;
+    color: rgb(66, 65, 65);
+    line-height: 4em;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .navigation-menu li a:hover {
+    background-color: rgb(115, 168, 247);
+    color: rgb(255, 255, 255);
+  }
+  
+  /* Main section*/
+  .main-today {
+    padding-bottom: 5px;
+    border-bottom: 1px solid #777;
+    font-size: 21px;
+    background-color: white;
+  }
+  
+  .main-today a {
+    color: rgb(15, 102, 233);
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .main-today a:hover {
+    color: rgb(47, 47, 48);
+    font-weight: bold;
+  }
+  
+  .main-tonight {
+    padding-bottom: 5px;
+    border-bottom: 1px solid #777;
+    font-size: 21px;
+    background-color: white;
+  }
+  
+  .main-tonight a {
+    text-decoration: none;
+    color: rgb(15, 102, 233);
+    font-weight: bold;
+  }
+  
+  .main-tonight a:hover {
+    color: rgb(47, 47, 48);
+    font-weight: bold;
+  }
+  
+  .main-more-info a {
+    color: rgb(15, 102, 233);
+    font-size: 18px;
+  }
+  
+  .main-more-info a:hover {
+    color: rgb(47, 47, 48);
+  }
+  
+  .row {
+    font-size: 16px;
+  }
+  
+  .card-body {
+    background-color: #e3f2fd;
+  }
+  
+  .card {
+    margin-top: 10px;
+    margin-left: 5px;
+    text-align: center;
+  }
+  
+  .row {
+    text-align: center;
+  }
+  
+  .container-cards {
+    background-color: white;
+  }
+  
+  strong {
+    font-size: 20px;
+    color: #212529;
+  }
